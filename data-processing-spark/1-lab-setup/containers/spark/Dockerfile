@@ -1,4 +1,6 @@
-FROM deltaio/delta-docker:latest
+FROM apache/spark:3.5.7-scala2.12-java17-python3-ubuntu
+
+# FROM deltaio/delta-docker:latest
 # latest is at 1.0.0_3.0.0, 
 
 USER root

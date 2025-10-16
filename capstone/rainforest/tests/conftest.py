@@ -5,9 +5,10 @@ from delta import configure_spark_with_delta_pip
 
 @pytest.fixture(scope='session')
 def spark():
+
     my_packages = [
-        "io.delta:delta-core_2.12:2.3.0",
-        "org.apache.hadoop:hadoop-aws:3.3.2",
+        "io.delta:delta-spark_2.12:3.2.0",
+        "org.apache.hadoop:hadoop-aws:3.3.4",
         "org.postgresql:postgresql:42.7.3",
     ]
 

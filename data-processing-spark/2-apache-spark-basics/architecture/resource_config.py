@@ -4,10 +4,6 @@ from typing import Dict
 from pyspark.sql import SparkSession
 
 
-def some_function(n_name: str) -> Dict[str, str]:
-    return None
-
-
 def run_code(spark):
     print("============================================")
     print("PRINT SPARKSESSION RESOURCE CONFIGS")
